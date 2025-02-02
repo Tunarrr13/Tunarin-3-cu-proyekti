@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./Rectangle\ 5.png);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.welcome-hissesi{
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.welcome-hissesi h1{
+    font-size: 36px;
+}
+.welcome-hissesi p{
+    font-size: 18px;
+}
+.join-button{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+.form-hissesi{
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.form-hissesi h2{
+    font-size: 24px;
+}
+.form-hissesi input{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+
+}
+.butona-basin{
+    width: 85%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.google-button{
+    width: 85%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
